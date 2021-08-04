@@ -1,5 +1,9 @@
 # Continuous Integration (CI) pipeline that orchestrates the deployment of the diabetes_regression model.
 
+pool:
+
+  vmImage: Ubuntu-16.04
+  
 # Runtime parameters to select artifacts
 parameters:
 - name : artifactBuildId
